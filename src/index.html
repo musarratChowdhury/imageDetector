@@ -5,5 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dx Ball</title>
   </head>
-  <body></body>
+  <body>
+  <h1>Image Classifier</h1>
+
+  <!-- Input for uploading image -->
+  <input type="file" id="fileInput" accept="image/*">
+
+  <!-- Image preview -->
+  <br>
+  <img id="imgPreview" src="" alt="Image Preview" width="300" style="display: none;">
+
+  <!-- Button to trigger detection -->
+  <br>
+  <button id="detectButton">Detect</button>
+
+  <!-- Predictions will appear here -->
+  <div id="predictions"></div>
+  </body>
 </html>
